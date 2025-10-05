@@ -1,0 +1,239 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Production builds
+dist/
+build/
+dist-ssr/
+.next/
+.nuxt/
+.output/
+.vercel/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+
+# API Keys and tokens (specific to your flood prediction system)
+mapbox-token.txt
+google-maps-key.txt
+weather-api-key.txt
+**/api-keys.json
+**/secrets.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+data/
+db/
+mongodb.log
+dump.rdb
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs/
+*.log
+
+# Coverage and testing
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+playwright-report/
+
+# TypeScript cache
+*.tsbuildinfo
+.tsbuildinfo
+.tmp/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+
+# Build outputs and temporary files
+tmp/
+temp/
+.tmp/
+
+# IDE and editor files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Package manager files
+.pnpm-debug.log*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Serverless directories
+.serverless/
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Storybook build outputs
+.out/
+.storybook-out/
+storybook-static/
+
+# Tailwind specific
+.tailwindcss-builds/
+
+# Uploads and user content
+uploads/
+public/uploads/
+static/uploads/
+
+# SSL certificates and security
+ssl/
+certs/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Session store
+sessions/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Configuration files with sensitive data
+config/production.js
+config/production.json
+config/local.js
+config/local.json
+
+# PM2 ecosystem file
+ecosystem.config.js
+
+# Docker files (if they contain secrets)
+docker-compose.override.yml
+docker-compose.prod.yml
+.dockerignore
+
+# Jupyter Notebook checkpoints (if using for data analysis)
+.ipynb_checkpoints/
+
+# Python cache (if using Python for ML models)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# AI/ML model files (if large)
+*.model
+*.pkl
+*.h5
+*.pb
+
+# Terraform (if using for infrastructure)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# AWS credentials
+.aws/
+
+# Google Cloud credentials
+gcloud/
+*.json
+
+# Azure credentials
+.azure/
+
+# Monitoring and analytics
+.sentry-native/
+
+# Local development
+*.local
+
+# Vite specific timestamp files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Figma tokens (design system)
+figma-tokens.json
+design-tokens/
+
+# Generated documentation
+docs/build/
+site/
+
+# Flood prediction specific data
+flood-data/
+sensor-data/
+weather-cache/
+prediction-models/
+training-data/
+
+# Any custom generated files
+src/generated/
+generated/
+auto-generated/
