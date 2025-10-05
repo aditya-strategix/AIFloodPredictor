@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { MapPin, Clock, Shield, Navigation, AlertTriangle, CheckCircle } from 'lucide-react';
 
 interface EscapeRouteVisualizationProps {

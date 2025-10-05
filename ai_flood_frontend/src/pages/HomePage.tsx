@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { FAQ } from '../components/FAQ';
 import { Database, BarChart3, Globe, Shield, Bell, Mail, CheckCircle, Play, Pause } from 'lucide-react';
