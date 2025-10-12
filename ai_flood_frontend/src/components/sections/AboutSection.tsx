@@ -1,6 +1,4 @@
 import { Target, Eye, Shield, Users, Globe, CheckCircle, Zap } from 'lucide-react';
-import { ImageWithFallback } from '../figma/ImageWithFallback';
-
 interface AboutSectionProps {
   isVisible: boolean;
 }
