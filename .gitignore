@@ -34,7 +34,6 @@ weather-api-key.txt
 *.db
 *.sqlite
 *.sqlite3
-data/
 db/
 mongodb.log
 dump.rdb

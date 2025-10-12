@@ -1,4 +1,3 @@
-// filepath: ai_flood_backend/segmentTree.js
 class SegmentTree {
   constructor(arr) {
     this.n = arr.length;
@@ -76,4 +75,4 @@ class SegmentTree {
   }
 }
 
-module.exports = SegmentTree;
+export default SegmentTree;
