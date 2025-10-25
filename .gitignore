@@ -1,0 +1,104 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Production builds
+dist/
+build/
+dist-ssr/
+.next/
+.nuxt/
+.output/
+.vercel/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+
+# API Keys and tokens (specific to your flood prediction system)
+mapbox-token.txt
+google-maps-key.txt
+weather-api-key.txt
+**/api-keys.json
+**/secrets.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+db/
+mongodb.log
+dump.rdb
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs/
+*.log
+
+# Coverage and testing
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+playwright-report/
+
+# TypeScript cache
+*.tsbuildinfo
+.tsbuildinfo
+.tmp/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+
+# Build outputs and temporary files
+tmp/
+temp/
+.tmp/
+
+# IDE and editor files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Package manager files
+.pnpm-debug.log*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
